@@ -11,8 +11,6 @@ import tensorflow_text as text
 
 print(tf.__version__)
 
-tf.enable_eager_execution()
-
 
 class FastText(tf.keras.Model):
 
